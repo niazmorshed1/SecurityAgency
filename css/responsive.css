@@ -1,0 +1,91 @@
+/* for Phones */
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    height: auto;
+    padding: 20px 0;
+  }
+  .inner-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu {
+    margin-top: 20px;
+  }
+  .nav-menu .nav-ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-section {
+    width: 100%;
+  }
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .hero-text h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .hero-image img {
+    width: 70%;
+    height: auto;
+    margin-left: 0;
+  }
+  .feature-section {
+    padding: 20px;
+  }
+  .inner-feature {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .service-section {
+    width: 100%;
+    padding: 20px;
+  }
+  .service-carts {
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 40px;
+    column-gap: 0;
+  }
+  .contact-section {
+    width: 100%;
+    padding: 20px;
+  }
+  .inner-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-img > img {
+    width: 100%;
+    height: auto;
+  }
+  .contact-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .bg1{
+    width: 50%;
+    margin-bottom: 30px;
+
+  }
+  .bg2{
+    width: 50%;
+    margin-bottom: 30px;
+
+  }
+  .sm-box{
+    display: block;
+
+  }
+
+  .inner-footer {
+    flex-wrap: wrap;
+   
+  }
+}
